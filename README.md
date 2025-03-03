@@ -285,9 +285,132 @@ bee8c99 (origin/main, origin/HEAD) Initial commit
 
 ```
 </details>
+<details>
+<summary>Part 1 Challenge 4 </summary>
 
+```bash
+# # Part1  
+# challenge 4
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git log --oneline
+9a9f114 (HEAD -> main) changes
+a4a7b50 add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+bee8c99 (origin/main, origin/HEAD) Initial commit
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git reset --soft a4a7b50
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git branch
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test4.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   test4.md
+
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git reset HEAD test4.md README.md
+Unstaged changes after reset:
+M       README.md
+M       test4.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   test4.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git add test4.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git commit -m "Create Fourth File"
+[main 05b2f59] Create Fourth File
+ 1 file changed, 36 deletions(-)
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git add README.md
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git commit -m "Update README"
+[main 157947a] Update README
+ 1 file changed, 293 insertions(+)
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ ^C
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git add test4.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git commit -m "Create Fourth File"
+[main 05b2f59] Create Fourth File
+ 1 file changed, 36 deletions(-)
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git add README.md
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git commit -m "Update README"
+[main 157947a] Update README
+ 1 file changed, 293 insertions(+)
+
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git commit -m "Update README"
+[main 157947a] Update README
+ 1 file changed, 293 insertions(+)
+
+ 1 file changed, 293 insertions(+)
+
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Github/Git_advanced_Exercise (main)
+$ git log --oneline --graph --decorate --all
+* 157947a (HEAD -> main) Update README
+* 05b2f59 Create Fourth File
+* a4a7b50 add the fourth file to my commit
+* a70f52e chore: Combination of initial commit and second commit
+* 1174f13 chore:created four intitial files
+* bee8c99 (origin/main, origin/HEAD) Initial commit
+$ git push origin main --force
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.  
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 2.83 KiB | 362.00 KiB/s, done.
+Total 13 (delta 5), reused 5 (delta 1), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   bee8c99..157947a  main -> main
+
+```
+</details>
 <details>
 ```bash
-<summary>Part 1 challenge 4</summary>
+<summary>Part 1 challenge 5</summary>
 
 </details>
