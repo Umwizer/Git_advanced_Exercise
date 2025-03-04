@@ -852,7 +852,7 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part 1  Challenge 9</summary>
 
 ```bash
-
+# part 1 Challenge 9
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git log --oneline --graph --decorate --all
 * 88ad43b (HEAD -> main, origin/main, origin/HEAD) Updating ReadMe
@@ -887,7 +887,7 @@ $ git log --oneline --graph --decorate --all
 <summary>Part1 Challenge 10 </summary>
 
 ```bash
-
+#part 1 challenge 10
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git reflog
 88ad43b (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: Updating ReadMe
@@ -990,11 +990,42 @@ a1e3222 HEAD@{26}: rebase (pick): Cretae Third File
 <summary>Part2 Challenge 1</summary>
 
 ```bash
+#part 2
+## challenge 1
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch ft/new-feature
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout ft/new-feature
+Switched to branch 'ft/new-feature'
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git branch
+  ft/branch
+* ft/new-feature
+  main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
 
 ```
 </details>
 
+<details>
+<summary>Part 2 Challenge 2 </summary>
+
+```bash
+#part 2 
+## challenge 2
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git commit -m "Implemented core functionality for new feature".
+[ft/new-feature 29aa610] Implemented core functionality for new feature.
+ 2 files changed, 21 insertions(+)
+ create mode 100644 feature.txt
+
+```
+</details>
 
 
