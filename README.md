@@ -704,7 +704,64 @@ $
 
 #Part 1
 ##Challenge 7
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git log --oneline
+ad512f0 (HEAD -> main, origin/main, origin/HEAD) readme
+pick c1af03b unwanted commits
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
+05b2f59 Create Fourth File
+a4a7b50 add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+bee8c99 Initial commit
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase HEAD~3
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git commit -m"readme updates"
+[main 932f39c] readme updates
+ 1 file changed, 11 insertions(+)
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase HEAD~3
+Current branch main is up to date.
+bee8c99 Initial commit
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase HEAD~3
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git commit -m"readme updates"
+[main 932f39c] readme updates
+ 1 file changed, 11 insertions(+)
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase HEAD~3
+Current branch main is up to date.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase -i
+Successfully rebased and updated refs/heads/main.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git rebase -i HEAD~3
+Successfully rebased and updated refs/heads/main.
 
 ```
 </details>
