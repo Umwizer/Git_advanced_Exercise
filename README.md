@@ -846,3 +846,12 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
    25a87d8..5f556e0  main -> main
 ```
 </details>
+
+<details>
+<summary>Part 1  Challenge 9</summary>
+
+```bash
+
+```
+
+</details>
