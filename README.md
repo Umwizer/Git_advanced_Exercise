@@ -697,3 +697,14 @@ UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ 
 ```
 </details>
+<details>
+<summary>Part 1 Challenge7</summary>
+
+```bash
+
+#Part 1
+##Challenge 7
+
+
+```
+</details>
