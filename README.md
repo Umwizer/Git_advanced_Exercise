@@ -991,10 +991,30 @@ a1e3222 HEAD@{26}: rebase (pick): Cretae Third File
 
 ```bash
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch ft/new-feature
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout ft/new-feature
+Switched to branch 'ft/new-feature'
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git branch
+  ft/branch
+* ft/new-feature
+  main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
 
 ```
 </details>
 
+<details>
+<summary>Part 2 Challenge 2 </summary>
+
+``bash
+
+```
+</details>
 
 
