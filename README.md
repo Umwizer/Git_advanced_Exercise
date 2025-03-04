@@ -852,6 +852,151 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 
 ```bash
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git log --oneline --graph --decorate --all
+* 88ad43b (HEAD -> main, origin/main, origin/HEAD) Updating ReadMe
+* 521f04b challenge 8
+* 4e958f0 updated readme
+* 5f556e0 Implemented Test 5
+| * 31e92dd (ft/branch) Implemented Test 5
+|/
+* 25a87d8 challenge 7
+* f45f6e2 rebasing
+* ae26d1e readme updates
+* ad512f0 readme
+* c1af03b unwanted commits
+* d4b463f unwanted files
+*   655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+|\
+| * 32cc82f Cretae Third File
+| * 157947a Update README
+* | 1fb9077 Cretae Third File
+|/
+* 05b2f59 Create Fourth File
+* a4a7b50 add the fourth file to my commit
+* a70f52e chore: Combination of initial commit and second commit
+* 1174f13 chore:created four intitial files
+* bee8c99 Initial commit
+
 ```
 
 </details>
+
+<details>
+<summary>Part1 Challenge 10 </summary>
+
+```bash
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git reflog
+88ad43b (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: Updating ReadMe
+521f04b HEAD@{1}: commit: challenge 8
+4e958f0 HEAD@{2}: commit: updated readme
+5f556e0 HEAD@{3}: cherry-pick: Implemented Test 5
+25a87d8 HEAD@{4}: checkout: moving from main to main
+25a87d8 HEAD@{5}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{6}: checkout: moving from main to ft/branch      
+25a87d8 HEAD@{7}: reset: moving to 25a87d8ee13fe22e2c675b3ff5c5af67adaf50ee
+25a87d8 HEAD@{8}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{9}: commit: Implemented Test 5
+25a87d8 HEAD@{10}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{11}: pull origin main --rebase (finish): returning to refs/heads/main
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+5f556e0 HEAD@{3}: cherry-pick: Implemented Test 5
+25a87d8 HEAD@{4}: checkout: moving from main to main
+25a87d8 HEAD@{5}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{6}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{7}: reset: moving to 25a87d8ee13fe22e2c675b3ff5c5af67adaf50ee
+25a87d8 HEAD@{8}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{9}: commit: Implemented Test 5
+25a87d8 HEAD@{10}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{11}: pull origin main --rebase (finish): returning to refs/heads/main
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+25a87d8 HEAD@{7}: reset: moving to 25a87d8ee13fe22e2c675b3ff5c5af67adaf50ee
+25a87d8 HEAD@{8}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{9}: commit: Implemented Test 5
+25a87d8 HEAD@{10}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{11}: pull origin main --rebase (finish): returning to refs/heads/main
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+25a87d8 HEAD@{8}: checkout: moving from ft/branch to main
+31e92dd (ft/branch) HEAD@{9}: commit: Implemented Test 5
+25a87d8 HEAD@{10}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{11}: pull origin main --rebase (finish): returning to refs/heads/main
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+25a87d8 HEAD@{10}: checkout: moving from main to ft/branch
+25a87d8 HEAD@{11}: pull origin main --rebase (finish): returning to refs/heads/main
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+25a87d8 HEAD@{12}: pull origin main --rebase (pick): challenge 7
+f45f6e2 HEAD@{13}: pull origin main --rebase (pick): rebasing
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+ae26d1e HEAD@{14}: pull origin main --rebase (pick): readme updates
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+ad512f0 HEAD@{15}: pull origin main --rebase (start): checkout ad512f0b54ec6b6d00e62a1815c1c3c1c7ffc56d
+8d11aa7 HEAD@{16}: commit: challenge 7
+8d11aa7 HEAD@{16}: commit: challenge 7
+78df94d HEAD@{17}: rebase (finish): returning to refs/heads/main
+78df94d HEAD@{17}: rebase (finish): returning to refs/heads/main
+78df94d HEAD@{18}: rebase (pick): unwanted files
+beb2d0a HEAD@{19}: rebase (pick): rebasing
+4da9da9 HEAD@{20}: rebase (pick): readme updates
+66743cb HEAD@{21}: rebase (pick): unwanted commits
+25a0e88 HEAD@{22}: rebase (pick): Cretae Third File
+beb2d0a HEAD@{19}: rebase (pick): rebasing
+4da9da9 HEAD@{20}: rebase (pick): readme updates
+66743cb HEAD@{21}: rebase (pick): unwanted commits
+25a0e88 HEAD@{22}: rebase (pick): Cretae Third File
+66743cb HEAD@{21}: rebase (pick): unwanted commits
+25a0e88 HEAD@{22}: rebase (pick): Cretae Third File
+1fb9077 HEAD@{23}: rebase (start): checkout HEAD~5
+1fb9077 HEAD@{23}: rebase (start): checkout HEAD~5
+4c6452f HEAD@{24}: rebase (abort): returning to refs/heads/main
+dde3232 HEAD@{25}: rebase (pick): unwanted files
+a1e3222 HEAD@{26}: rebase (pick): Cretae Third File
+1fb9077 HEAD@{27}: rebase (start): checkout HEAD~5
+4c6452f HEAD@{28}: rebase (finish): returning to refs/heads/main
+
+
+
+```
+</details>
+
+
+
+# part 2
+
+
+<details>
+<summary>Part2 Challenge 1</summary>
+
+```bash
+
+
+
+```
+</details>
+
+
+
