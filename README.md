@@ -990,33 +990,43 @@ a1e3222 HEAD@{26}: rebase (pick): Cretae Third File
 <summary>Part2 Challenge 1</summary>
 
 ```bash
-#part 2
-## challenge 1
+
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git branch ft/new-feature
 
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git checkout ft/new-feature
 Switched to branch 'ft/new-feature'
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout ft/new-feature
+Switched to branch 'ft/new-feature'
+$ git checkout ft/new-feature
+Switched to branch 'ft/new-feature'
+Switched to branch 'ft/new-feature'
+
 
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
 $ git branch
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git branch
+  ft/branch
+$ git branch
+  ft/branch
   ft/branch
 * ft/new-feature
   main
 
+* ft/new-feature
+  main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+  main
+
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
 
-```
-</details>
-
-<details>
-<summary>Part 2 Challenge 2 </summary>
-
-```bash
-#part 2 
-## challenge 2
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git add .
 $ git add .
 
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
@@ -1028,4 +1038,33 @@ $ git commit -m "Implemented core functionality for new feature".
 ```
 </details>
 
+<details>
+<summary>Part2 Challenge 3</summary>
 
+```bash
+
+#part 1
+## Challenge 3
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-feature)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git add readme.txt
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git commit -m "Added readme.txt with project intro"
+[main 93741be] Added readme.txt with project intro
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+ ```
+ </details>
+
+<details>
+<summary>Part 2 Challenge 4 </summary>
+
+```bash
+
+```
+</details>
