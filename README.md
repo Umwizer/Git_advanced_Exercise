@@ -737,3 +737,111 @@ a70f52e chore: Combination of initial commit and second commit
 bee8c99 Initial commit
 ```
 </details>
+<details>
+<summary>Part 1 Challenge 7</summary>
+
+```bash
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/branch)
+$ git add test5.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/branch)
+$ git commit -m "Implemented Test 5"
+[ft/branch 31e92dd] Implemented Test 5
+ 1 file changed, 1 insertion(+)       
+ create mode 100644 test5.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/branch)
+$ git log --oneline
+31e92dd (HEAD -> ft/branch) Implemented Test 5
+31e92dd (HEAD -> ft/branch) Implemented Test 5
+25a87d8 (origin/main, origin/HEAD, main) challenge 7
+f45f6e2 rebasing
+ae26d1e readme updates
+ad512f0 readme
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
+05b2f59 Create Fourth File
+a4a7b50 add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+bee8c99 Initial commit
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+HELP -- Press RETURN for more, or q when done...skipping...
+25a87d8 (origin/main, origin/HEAD, main) challenge 7
+f45f6e2 rebasing
+ae26d1e readme updates
+ad512f0 readme
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
+05b2f59 Create Fourth File
+a4a7b50 add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+bee8c99 Initial commit
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git cherry-pick 31e92dd
+[main 5f556e0] Implemented Test 5
+ Date: Tue Mar 4 12:13:11 2025 +0200
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test5.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git log --oneline
+5f556e0 (HEAD -> main) Implemented Test 5
+25a87d8 (origin/main, origin/HEAD) challenge 7
+f45f6e2 rebasing
+ae26d1e readme updates
+ad512f0 readme
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
+05b2f59 Create Fourth File
+a4a7b50 add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   25a87d8..5f556e0  main -> main
+```
+</details>
