@@ -1,4 +1,5 @@
 # Git_advanced_Exercise
+# PART 1
 <details>
 <summary>Part1 - Excercise 1</summary>
 
@@ -983,10 +984,7 @@ a1e3222 HEAD@{26}: rebase (pick): Cretae Third File
 ```
 </details>
 
-
-
-# part 2
-
+# PART 2
 
 <details>
 <summary>Part2 Challenge 1</summary>
