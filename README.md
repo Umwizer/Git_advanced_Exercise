@@ -285,12 +285,6 @@ bee8c99 (origin/main, origin/HEAD) Initial commit
 
 ```
 </details>
-<<<<<<< HEAD
-
-<details>
-```bash
-<summary>Part 1 challenge 4</summary>
-=======
 <details>
 <summary>Part 1 Challenge 4 </summary>
 
@@ -419,7 +413,6 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 
 <details>
 <summary>Part 1 challenge 5</summary>
->>>>>>> 32cc82fb52d793283d1f2871a13fe444a8660a3c
 
 ```bash
 
