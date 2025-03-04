@@ -738,10 +738,11 @@ bee8c99 Initial commit
 ```
 </details>
 <details>
-<summary>Part 1 Challenge 7</summary>
+<summary>Part 1 Challenge 8</summary>
 
 ```bash
-
+# part 1 
+## challenge 8
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/branch)
 $ git add test5.md
 
