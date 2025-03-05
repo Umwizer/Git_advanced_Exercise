@@ -1460,21 +1460,10 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part2 Challenge9</summary>
 
 ```bash
-UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
-$ UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
-bash: syntax error near unexpected token `('
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
+$ git branch -m ft/new-branch-from-commit ft/improved-branch-name
 
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
-$ $ git add .
-bash: $: command not found
-
-UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
-$ git add .
-
-UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
-$ git commit -m"challenge9"
-[ft/improved-branch-name 4a7487a] challenge9
- 1 file changed, 18 insertions(+)
 
 ```
 </details>
