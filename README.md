@@ -1482,5 +1482,51 @@ $ git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git merge conflict-branch
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 772 bytes | 386.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   32b7421..7ff4a1d  main -> main
+```
+</details>
+<details>
+<summary>Part3 Challenge4</summary>
+
+```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch
+  conflict-branch
+  ft/branch
+  ft/improved-branch-name
+* main
+
+hii ruth
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git merge  conflict-branch
+Auto-merging example.txt
+CONFLICT (add/add): Merge conflict in example.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff nvimdiff
+Merging:
+example.txt
+
+Normal merge conflict for 'example.txt':
+  {local}: created file
+  {remote}: created file
+Hit return to start merge resolution tool (vimdiff):
+3 files to edit
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+
 ```
 </details>
