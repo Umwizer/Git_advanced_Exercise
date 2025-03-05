@@ -1427,7 +1427,60 @@ Your branch is up to date with 'origin/main'.
 <summary>Part3 Challenge 1 </summary>
 
 ```bash
+#part 3
+## challenge 1
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git stash
+Saved working directory and index state WIP on main: 32b7421 readme updates
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git stash list
+stash@{0}: WIP on main: 32b7421 readme updates
+
+
+```
+</details>
+<details>
+<summary>Part3 Challenge 2 </summary>
+
+```bash
+#Part 3
+## challenge 2
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git stash pop
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test8.md
+
+Dropped refs/stash@{0} (3ff1341a5bbd26814f914f63437c3426e5ac4cfe)
+
+```
+</details>
+<details>
+<summary>Part3 Challenge3</summary>
+
+```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout -b conflict-branch
+Switched to a new branch 'conflict-branch'
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (conflict-branch)
+$ git add example.txt
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (conflict-branch)
+$ git commit -m"Modify new file in new branch"
+[conflict-branch f617c87] Modify new file in new branch
+ 2 files changed, 2 insertions(+)
+ create mode 100644 example.txt
+ create mode 100644 test8.md
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (conflict-branch)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 
 ```
 </details>
