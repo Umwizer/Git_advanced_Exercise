@@ -1257,5 +1257,102 @@ $ git pull origin main
 From https://github.com/Umwizer/Git_advanced_Exercise
  * branch            main       -> FETCH_HEAD        
 Already up to date.
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch
+  ft/branch
+  ft/new-branch-from-commit
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+* main
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git log --oneline
+4d0cd08 (HEAD -> main, origin/main, origin/HEAD) Challenge 6  read me
+86bd4fc Challenge 6  read me
+95bc6d3 Challenge 6
+2b3cedb readme data
+10044f6 updated readme
+2256218 Added readme.txt with project intro
+a69ee68 Merge pull request #1 from Umwizer/ft/new-feature
+f31f308 (origin/ft/new-feature) updates to readme.     
+29aa610 Implemented core functionality for new feature.
+28867a0 readme updating
+e68b0a0 challenge 10
+88ad43b Updating ReadMe
+521f04b challenge 8
+4e958f0 updated readme
+5f556e0 Implemented Test 5
+25a87d8 challenge 7
+f45f6e2 rebasing
+ae26d1e readme updates
+ad512f0 readme
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
+05b2f59 Create Fourth File
+a4a7b50 (origin/ft/new-branch-from-commit) add the fourth file to my commit
+a70f52e chore: Combination of initial commit and second commit
+1174f13 chore:created four intitial files
+bee8c99 Initial commit
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git merge ft/new-branch-from-commit a4a7b50
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"Merge feature branch ft/new-branch-from-commit into main"
+[main 511b040] Merge feature branch ft/new-branch-from-commit into main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"Merge feature branch ft/new-branch-from-commit into main"
+[main 511b040] Merge feature branch ft/new-branch-from-commit into main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+
 ```
 </details>
