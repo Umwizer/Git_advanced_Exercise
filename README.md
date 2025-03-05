@@ -1421,3 +1421,13 @@ Your branch is up to date with 'origin/main'.
 
 ```
 </details>
+
+# PART 3
+<details>
+<summary>Part3 Challenge 1 </summary>
+
+```bash
+
+
+```
+</details>
