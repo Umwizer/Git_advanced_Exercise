@@ -1360,7 +1360,64 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part2 Challenge8</summary>
 
 ```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git log --oneline
+f31b488 (HEAD -> main, origin/main, origin/ft/new-branch-from-commit, origin/HEAD) Readme Updates
+fce13f4 changes in readme Challenge 7
+511b040 Merge feature branch ft/new-branch-from-commit into main
+4d0cd08 Challenge 6  read me
+86bd4fc Challenge 6  read me
+c0dcd39 challenge 6
+95bc6d3 Challenge 6
+2b3cedb readme data
+10044f6 updated readme
+2256218 Added readme.txt with project intro
+a69ee68 Merge pull request #1 from Umwizer/ft/new-feature
+f31f308 (origin/ft/new-feature) updates to readme.       
+29aa610 Implemented core functionality for new feature.  
+28867a0 readme updating
+e68b0a0 challenge 10
+88ad43b Updating ReadMe
+521f04b challenge 8
+4e958f0 updated readme
+5f556e0 Implemented Test 5
+25a87d8 challenge 7
+f45f6e2 rebasing
+ae26d1e readme updates
+ad512f0 readme
+c1af03b unwanted commits
+d4b463f unwanted files
+655a41f Merge branch 'main' of https://github.com/Umwizer/Git_advanced_Exercise
+1fb9077 Cretae Third File
+32cc82f Cretae Third File
+157947a Update README
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout 86bd4fc
+Note: switching to '86bd4fc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 86bd4fc Challenge 6  read me
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise ((86bd4fc...))
+$ git checkout main
+Previous HEAD position was 86bd4fc Challenge 6  read me
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 
 ```
 </details>
