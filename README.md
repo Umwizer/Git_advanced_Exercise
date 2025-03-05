@@ -1245,7 +1245,8 @@ Your branch is up to date with 'origin/main'.
 <summary>Part1 Challenge 7 </summary>
 
 ```bash
-
+#part2
+## Challenge 7
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
 $ git checkout main
 Switched to branch 'main'
@@ -1361,6 +1362,132 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 
 ```bash
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch
+  ft/branch
+  ft/new-branch-from-commit
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git merge ft/new-branch-from-commit a4a7b50
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"Merge feature branch ft/new-branch-from-commit into main"
+[main 511b040] Merge feature branch ft/new-branch-from-commit into main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done. 
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+
+The most similar command is
+        add
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"Merge feature branch ft/new-branch-from-commit into main"
+[main 511b040] Merge feature branch ft/new-branch-from-commit into main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"Merge feature branch ft/new-branch-from-commit into main"
+[main 511b040] Merge feature branch ft/new-branch-from-commit into main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+Writing objects: 100% (4/4), 592 bytes | 592.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   4d0cd08..511b040  main -> main
+```
+</details>
+
+<details>
+<summary>Part2 Challenge9</summary>
+
+```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
+$ UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
+bash: syntax error near unexpected token `('
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
+$ $ git add .
+bash: $: command not found
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
+$ git commit -m"challenge9"
+[ft/improved-branch-name 4a7487a] challenge9
+ 1 file changed, 18 insertions(+)
+
+```
+</details>
+<details>
+<summary>Part2 Challenge10</summary>
+
+```bash
+#Part 2
+##Challenge 10
+
+
+```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git log --oneline
 f31b488 (HEAD -> main, origin/main, origin/ft/new-branch-from-commit, origin/HEAD) Readme Updates
 fce13f4 changes in readme Challenge 7
@@ -1391,7 +1518,6 @@ d4b463f unwanted files
 1fb9077 Cretae Third File
 32cc82f Cretae Third File
 157947a Update README
-
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
 $ git checkout 86bd4fc
 Note: switching to '86bd4fc'.
@@ -1527,6 +1653,32 @@ Hit return to start merge resolution tool (vimdiff):
 3 files to edit
 
 UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main|MERGING)
+$ git commit -m"readme"
+[main 6251533] readme
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 1.64 KiB | 280.00 KiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   7ff4a1d..6251533  main -> main
+```
+</details>
+
+
+<details>
+<summary>Part3 Challenge 5</summary>
+
+```bash
 
 ```
 </details>
