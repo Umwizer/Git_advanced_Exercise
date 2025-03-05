@@ -1104,5 +1104,28 @@ If multiple developers are working on the same remote branch, you may encounter 
 
 ```bash
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git pull origin main
+From https://github.com/Umwizer/Git_advanced_Exercise
+ * branch            main       -> FETCH_HEAD        
+Already up to date.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch --merged
+  ft/new-feature
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch -d ft/new-feature
+Deleted branch ft/new-feature (was f31f308).
+
 ```
+</details>
+<details>
+<summary>Part2  Challenge 6 </summary>
+
+```bash
+
+```
+
 </details>
