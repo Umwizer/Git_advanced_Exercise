@@ -1597,6 +1597,29 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part3 Challenge 5</summary>
 
 ```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git branch
+  conflict-branch
+  ft/branch
+  ft/improved-branch-name
+  ft/new-branch-from-commit
+* main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git checkout  ft/improved-branch-name
+Switched to branch 'ft/improved-branch-name'
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/improved-branch-name)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+```
+</details>
+<details>
+<summary>Part 3 Challenge 6 </summary>
+
+```bash
+
 
 ```
 </details>
