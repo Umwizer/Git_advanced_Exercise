@@ -1361,6 +1361,26 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part2 Challenge8</summary>
 
 ```bash
+PS C:\TheGym\Git_advanced_Exercise> git checkout ft/new-branch-from-commit
+branch 'ft/new-branch-from-commit' set up to track 'origin/ft/new-branch-from-commit'.
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\TheGym\Git_advanced_Exercise> git rebase main
+Successfully rebased and updated refs/heads/ft/new-branch-from-commit.
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
+$ git rebase main
+Current branch ft/new-branch-from-commit is up to date.
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (ft/new-branch-from-commit)
+$ git push origin ft/new-branch-from-commit --force
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.    
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 648 bytes | 46.00 KiB/s, done.  
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   f31b488..b0038ba  ft/new-branch-from-commit -> ft/new-branch-from-commit
 
 ```
 </details>
