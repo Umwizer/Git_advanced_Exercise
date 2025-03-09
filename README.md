@@ -1620,6 +1620,13 @@ Your branch is up to date with 'origin/main'.
 
 ```bash
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git add .
+warning: in the working copy of '.gitignore', CRLF will be replaced by LF the next time Git touches it
 
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git commit -m "Added tmp directory to .gitignore"
+[main 3fb6686] Added tmp directory to .gitignore
+ 1 file changed, 1 insertion(+), 130 deletions(-)
 ```
 </details>
