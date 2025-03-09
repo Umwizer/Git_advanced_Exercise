@@ -1361,7 +1361,11 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 <summary>Part2 Challenge8</summary>
 
 ```bash
-
+PS C:\TheGym\Git_advanced_Exercise> git checkout ft/new-branch-from-commit
+branch 'ft/new-branch-from-commit' set up to track 'origin/ft/new-branch-from-commit'.
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\TheGym\Git_advanced_Exercise> git rebase main
+Successfully rebased and updated refs/heads/ft/new-branch-from-commit.
 ```
 </details>
 
