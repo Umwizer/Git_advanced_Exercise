@@ -1630,3 +1630,37 @@ $ git commit -m "Added tmp directory to .gitignore"
  1 file changed, 1 insertion(+), 130 deletions(-)
 ```
 </details>
+<details>
+<summary>Part3 Challenge 7 </summary>
+
+```bash
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git tag v1.0
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin v1.0
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+ * [new tag]         v1.0 -> v1.0
+```
+</details>
+<details>
+<summary>Part3 Challenge8 </summary>
+
+```bash
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git tag
+v1.0
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git tag -d v1.0
+Deleted tag 'v1.0' (was bc3e294)
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push --delete origin v1.0
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+ - [deleted]         v1.0
+
+```
+</details>
+<details>
+<summary>Part3 Challenge 9 </summary>
