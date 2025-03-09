@@ -1664,3 +1664,37 @@ To https://github.com/Umwizer/Git_advanced_Exercise.git
 </details>
 <details>
 <summary>Part3 Challenge 9 </summary>
+
+```bash
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git add .
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git commit -m "all udates"
+[main ed43980] all udates
+ 1 file changed, 35 insertions(+), 1 deletion(-)
+ UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+$ git push origin main
+Enumerating objects: 5, done.      
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 457 bytes | 41.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Umwizer/Git_advanced_Exercise.git
+   bc3e294..ed43980  main -> main
+
+UMWIZERWA@DESKTOP-6D0H2BN MINGW64 /c/TheGym/Git_advanced_Exercise (main)
+
+ ```
+ </details>
+ <details>
+ <summary>Part3 Challenge 10 </summary>
+
+ ```bash
+ 
+
+ ```
+ </details>
